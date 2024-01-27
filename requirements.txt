@@ -1,0 +1,10 @@
+fastai~=2.7.13
+requests~=2.31.0
+aiogram~=2.17
+Pillow~=10.1.0
+uvicorn~=0.23.2
+fastapi~=0.104.1
+plotly==5.5.0
+streamlit==0.89.0
+uvicorn~=0.23.2
+ultralytics
