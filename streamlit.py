@@ -17,7 +17,7 @@ file = st.file_uploader('Rasm yuklash', type=['png', 'jpeg', 'wpeg','jpg'])
 if file:
     local_image_path = f"uploaded_image.{file.name.split('.')[-1]}"
     with open(local_image_path, "wb") as f:
-        f.write(file.getbuffer())
+        f.write(file.getbuffer())x`
 
     # Read the uploaded image as a PIL image
     image = Image.open(local_image_path)
