@@ -3,7 +3,6 @@ from fastai.vision.all import *
 import pathlib
 import PIL
 from io import BytesIO
-from diases import data
 from predict_func import image_predict
 import uvicorn
 

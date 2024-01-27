@@ -1,5 +1,6 @@
 from fastai.vision.all import *
 import pathlib
+from diases import quchimcha, data, tashxis, urlss
 import cv2
 from ultralytics import YOLO
 
@@ -85,4 +86,5 @@ def image_predict(image_path):
     d['ehtimolligi'] = round(float((prob[prob_id])*100),2)
     d['tashxis'] = tashxis[pred]
     d['qushimcha'] = quchimcha
+    d['urll'] = urlss[pred]
     return d
